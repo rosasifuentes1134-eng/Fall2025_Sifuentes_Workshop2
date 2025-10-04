@@ -84,7 +84,7 @@ public class Main {
                     for(Book book: books){
                         if(book.getId()==iD){
                             book.checkIn();
-                            System.out.println("Successfully checked in ");
+                            System.out.println("Successfully checked in");
                         }
                     }
                     break;
